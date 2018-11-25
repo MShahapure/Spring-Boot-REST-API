@@ -1,0 +1,7 @@
+version: '2'
+services:
+  easy-notes:
+      image: easy-notes:1.0.0
+      restart: always
+      ports:
+        - "8080:80"
